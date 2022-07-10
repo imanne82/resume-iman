@@ -1,0 +1,73 @@
+@media (max-width: 1350px) {
+    .right-site {
+        padding: 10px 15px 0 0;
+
+    }
+
+    footer {
+        margin-top: 53%;
+    }
+}
+
+@media (max-width: 930px) {
+    .text-study div {
+        padding: 20px 0 0 30%;
+    }
+
+    footer {
+        margin-top: 73%;
+    }
+}
+
+@media (max-width: 730px) {
+    .right-site {
+        float: none;
+        width: 100%;
+        padding: 1rem 5rem 1rem 2rem;
+    }
+    #card {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 10% -3rem 10% 10%;
+    }
+    #card img {
+        height: 100%;
+    }
+   .right-site .profile{
+       border-bottom:  1px solid #929292 ;
+       padding: 1rem 5rem 1rem 2rem;
+   }
+   .right-site .records {
+       border-bottom:  1px solid #929292 ;
+       padding: 1rem 5rem 1rem 2rem;
+       margin-top:  10px;
+   }
+    .left-site .study{
+        border-bottom:  1px solid #929292 ;
+        padding: 1rem 5rem 1rem 2rem;
+        margin-top:  10px;
+    }
+
+    .left-site {
+        float: none;
+        width: 95%;
+        padding: 1px 5rem 0 0
+    }
+    .left-site .skills{
+        border-bottom:  1px solid #929292 ;
+        padding: 0 3rem 3rem 3rem ;
+        margin-top:  10px;
+    }
+    .skill-titer {
+        padding: 5rem 0 10px 0;
+    }
+    .progress {
+        width: 80%;
+    }
+    footer {
+        margin-top: 19%;
+    }
+}
+

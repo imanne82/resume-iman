@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shabnam', sans-serif;
+    direction: rtl;
+}
+
+.header {
+    width: 100%;
+    height: 7rem;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.head {
+    padding-top: 15px;
+    line-height: 35px;
+}
+
+.navbar {
+    width: 100%;
+    height: 3rem;
+    background: rgba(42, 42, 42, 0.98);
+    padding: 10px 10rem 10px 0;
+    justify-content: space-around;
+}
+
+.navbar .menubar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .menubar li {
+    padding-left: 3rem;
+}
+
+.navbar .menubar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar .menubar li a:hover {
+    color: #F3CF00;
+    transition: 0.1s;
+}
+.right-site {
+    float: right;
+    width: 40%;
+    position: relative;
+    padding: 10px 10rem 10px 0;
+}
+
+.profile .prof-titer {
+    padding-top: 10px;
+    cursor: context-menu;
+}
+
+.profile .prof-titer span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.profile .prof-titer span i {
+    background: black;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+#card {
+    height: 15rem;
+    width: 15rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    margin: 10px 4rem 0 0;
+}
+
+#card h4 {
+    margin-bottom: 1.5rem;
+    color: #F3CF00;
+    cursor: context-menu;
+}
+
+#card a{
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+#card span{
+    direction: ltr;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    cursor: context-menu;
+}
+#card img {
+    width: 23rem;
+    height: 16rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#card .card-list {
+    justify-content: center;
+    height: 3rem;
+}
+
+#card .card-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#card .card-list ul li {
+    padding: 0 1rem 0 1rem;
+}
+
+#card .card-list {
+    display: flex;
+}
+
+#card .card-list ul li a .icon {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    border: 2px solid;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+#card .card-list ul li a .icofont-instagram:hover {
+    background: linear-gradient(129deg, rgba(69, 61, 185, 1) 11%, rgba(255, 0, 0, 1) 51%, rgba(252, 176, 69, 1) 88%);
+}
+
+#card .card-list ul li a .icofont-twitter:hover {
+    background-color: #00C3DA;
+}
+
+#card .card-list ul li a .img {
+    padding: 0;
+}
+
+#card .card-list ul li a img:hover {
+    background-color: rgb(9, 0, 49);
+}
+
+#datalist {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+#card #datalist .button-back {
+    position: relative;
+    top: -2rem;
+    right: -5rem;
+}
+#card #datalist .button-back i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/*#card:hover #datalist {*/
+/*    opacity: 1;*/
+/*    height: 100%;*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*}*/
+.text-resume {
+    padding: 1rem 0 0 40px;
+    font-size: 15px;
+}
+
+.text-resume span {
+    font-size: 15px;
+    cursor: context-menu;
+}
+
+.records .record-titer span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.records .record-titer span i {
+    background: black;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.records .record-titer {
+    padding-top: 2rem;
+}
+
+.left-site {
+    float: left;
+    width: 60%;
+    position: relative;
+    padding: 25px 4rem 10px 0;
+}
+
+.study .study-titer span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.study .study-titer span i {
+    background: black;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.text-study div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 40%;
+    font-size: 15px;
+    cursor: context-menu;
+}
+
+.text-study div span:nth-child(2) {
+    background: black;
+    font-size: 13px;
+    color: white;
+    width: 8rem;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 20px;
+}
+
+.skill-titer {
+    padding: 10rem 0 10px 0;
+}
+
+.skills .skill-titer span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.skills .skill-titer span i {
+    background: black;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.box-skills label {
+    line-height: 2rem;
+    font-size: 13px;
+}
+
+.box {
+    background: rgba(255, 255, 2);
+    width: 65%;
+    border-radius: 20px;
+}
+
+.progress {
+    width: 65%;
+    background: rgba(244, 246, 246, 1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    box-shadow: -2px 1px 7px 0 #929292 ;
+}
+
+.value {
+    border-radius: 100px;
+    height: 20px;
+    background: linear-gradient(90deg, rgba(37,37,35,1) 23%, rgba(255,211,33,1) 100%);
+    width: 0;
+}
+.value span{
+    opacity: 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color:#F3CF00;
+    cursor: context-menu;
+
+}
+.value:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.progress-value-css {
+    animation: css 4s normal forwards;
+}
+
+.progress-value-html {
+    animation: html 4s normal forwards;
+}
+
+.progress-value-java {
+    /*border-radius: 100px;*/
+    animation: java 4s normal forwards;
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 15%;
+    }
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 36%;
+    height: 40px;
+    width: 100%;
+    background: black;
+    color: white;
+}
