@@ -25,29 +25,32 @@
         width: 100%;
         padding: 1rem 5rem 1rem 2rem;
     }
+
     #card {
-        width: 20rem;
-        height: 20rem;
-        border-radius: 50%;
-        border: 2px solid black;
+        width: 15rem;
+        height: 15rem;
         margin: 10% -3rem 10% 10%;
     }
+
     #card img {
         height: 100%;
     }
-   .right-site .profile{
-       border-bottom:  1px solid #929292 ;
-       padding: 1rem 5rem 1rem 2rem;
-   }
-   .right-site .records {
-       border-bottom:  1px solid #929292 ;
-       padding: 1rem 5rem 1rem 2rem;
-       margin-top:  10px;
-   }
-    .left-site .study{
-        border-bottom:  1px solid #929292 ;
+
+    .right-site .profile {
+        border-bottom: 1px solid #929292;
         padding: 1rem 5rem 1rem 2rem;
-        margin-top:  10px;
+    }
+
+    .right-site .records {
+        border-bottom: 1px solid #929292;
+        padding: 1rem 5rem 1rem 2rem;
+        margin-top: 10px;
+    }
+
+    .left-site .study {
+        border-bottom: 1px solid #929292;
+        padding: 1rem 5rem 1rem 2rem;
+        margin-top: 10px;
     }
 
     .left-site {
@@ -55,19 +58,69 @@
         width: 95%;
         padding: 1px 5rem 0 0
     }
-    .left-site .skills{
-        border-bottom:  1px solid #929292 ;
-        padding: 0 3rem 3rem 3rem ;
-        margin-top:  10px;
+
+    .left-site .skills {
+        border-bottom: 1px solid #929292;
+        padding: 0 3rem 3rem 3rem;
+        margin-top: 10px;
     }
+
     .skill-titer {
         padding: 5rem 0 10px 0;
     }
+
     .progress {
         width: 80%;
     }
+
     footer {
         margin-top: 19%;
+    }
+}
+
+@media (max-width: 473px) {
+    .navbar {
+        padding: 10px 110px 0 0;
+    }
+
+    .navbar .menubar li {
+        padding-left: 1.5rem;
+    }
+
+    .right-site .profile {
+        padding: 1rem 1rem 1rem 10px;
+    }
+    .records .record-titer {
+         padding-top:0 ;
+    }
+
+    #card {
+        width: 15rem;
+        height: 15rem;
+        margin: 10% -2rem 10% 10%;
+    }
+
+    .right-site .records {
+        border-bottom: 1px solid #929292;
+        padding: 1rem 1rem 1rem 10px;
+    }
+    .left-site {
+        width: 100%;
+        padding: 0 1rem 0 0;
+    }
+    .left-site .study {
+        border-bottom: 1px solid #929292;
+        padding: 1rem 5rem 1rem 2rem;
+        margin-top: 0;
+    }
+    .text-study div {
+        padding: 20px 0 0 10%;
+    }
+    .skill-titer {
+        padding: 1rem 2rem 10px 0;
+    }
+    .progress {
+        width: 95%;
     }
 }
 
