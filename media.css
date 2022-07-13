@@ -90,8 +90,9 @@
     .right-site .profile {
         padding: 1rem 1rem 1rem 10px;
     }
+
     .records .record-titer {
-         padding-top:0 ;
+        padding-top: 0;
     }
 
     #card {
@@ -104,23 +105,59 @@
         border-bottom: 1px solid #929292;
         padding: 1rem 1rem 1rem 10px;
     }
+
     .left-site {
         width: 100%;
         padding: 0 1rem 0 0;
     }
+
     .left-site .study {
         border-bottom: 1px solid #929292;
         padding: 1rem 5rem 1rem 2rem;
         margin-top: 0;
     }
+
     .text-study div {
         padding: 20px 0 0 10%;
     }
+
     .skill-titer {
         padding: 1rem 2rem 10px 0;
     }
+
     .progress {
         width: 95%;
+    }
+}
+
+@media (max-width: 370px) {
+    .navbar {
+        padding: 10px 30px 0 0;
+    }
+
+    .navbar .menubar li {
+        padding-left: 1.5rem;
+    }
+
+    .right-site {
+        padding: 10px 3rem 0 0;
+    }
+
+    .right-site .profile {
+        padding: 0 0 1rem 0;
+    }
+
+    .left-site {
+        padding: 0 0 0 0;
+        margin: 0 -20px 0 0;
+    }
+
+    .text-study div {
+        padding: 7% 0 0 0;
+    }
+
+    .progress {
+        width: 105%;
     }
 }
 
