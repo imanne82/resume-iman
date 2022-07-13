@@ -155,6 +155,12 @@
 #card .card-list ul li a .img {
     padding: 0;
 }
+#card .card-list ul li a  .icofont-instagram{
+    padding: 15%;
+}
+#card .card-list ul li a .icofont-twitter{
+    padding: 15%;
+}
 
 #card .card-list ul li a img:hover {
     background-color: rgb(9, 0, 49);
@@ -178,12 +184,14 @@
 
 #card #datalist .button-back {
     position: relative;
-    top: -2rem;
+    top: -1.5rem;
     right: -5rem;
 }
 
-#card #datalist .button-back i {
-    font-size: 20px;
+#card #datalist .button-back img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
     cursor: pointer;
 }
 
