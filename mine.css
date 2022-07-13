@@ -49,6 +49,7 @@
     color: #F3CF00;
     transition: 0.1s;
 }
+
 .right-site {
     float: right;
     width: 40%;
@@ -67,11 +68,9 @@
     cursor: context-menu;
 }
 
-.profile .prof-titer span i {
-    background: black;
-    padding: 0.5rem 0.5rem;
-    color: white;
-    border-radius: 20px;
+.profile .prof-titer span img {
+    width: 2rem;
+    height: 2rem;
 }
 
 #card {
@@ -89,18 +88,20 @@
     cursor: context-menu;
 }
 
-#card a{
+#card a {
     margin-bottom: 1.5rem;
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
-#card span{
+
+#card span {
     direction: ltr;
     font-size: 20px;
     margin-bottom: 1.5rem;
     cursor: context-menu;
 }
+
 #card img {
     width: 23rem;
     height: 16rem;
@@ -174,15 +175,18 @@
     opacity: 0;
     transition: 0.5s ease;
 }
+
 #card #datalist .button-back {
     position: relative;
     top: -2rem;
     right: -5rem;
 }
+
 #card #datalist .button-back i {
     font-size: 20px;
     cursor: pointer;
 }
+
 /*#card:hover #datalist {*/
 /*    opacity: 1;*/
 /*    height: 100%;*/
@@ -205,11 +209,9 @@
     cursor: context-menu;
 }
 
-.records .record-titer span i {
-    background: black;
-    padding: 0.5rem 0.5rem;
-    color: white;
-    border-radius: 20px;
+.records .record-titer span img {
+    width: 2rem;
+    height: 2rem;
 }
 
 .records .record-titer {
@@ -229,11 +231,9 @@
     cursor: context-menu;
 }
 
-.study .study-titer span i {
-    background: black;
-    padding: 0.5rem 0.5rem;
-    color: white;
-    border-radius: 20px;
+.study .study-titer span img {
+    width: 2rem;
+    height: 2rem;
 }
 
 .text-study div {
@@ -264,11 +264,9 @@
     cursor: context-menu;
 }
 
-.skills .skill-titer span i {
-    background: black;
-    padding: 0.5rem 0.5rem;
-    color: white;
-    border-radius: 20px;
+.skills .skill-titer span img {
+    width: 2rem;
+    height: 2rem;
 }
 
 .box-skills label {
@@ -290,28 +288,31 @@
     align-items: center;
     display: flex;
     height: 20px;
-    box-shadow: -2px 1px 7px 0 #929292 ;
+    box-shadow: -2px 1px 7px 0 #929292;
 }
 
 .value {
     border-radius: 100px;
     height: 20px;
-    background: linear-gradient(90deg, rgba(37,37,35,1) 23%, rgba(255,211,33,1) 100%);
+    background: linear-gradient(90deg, rgba(37, 37, 35, 1) 23%, rgba(255, 211, 33, 1) 100%);
     width: 0;
 }
-.value span{
+
+.value span {
     opacity: 0;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    color:#F3CF00;
+    color: #F3CF00;
     cursor: context-menu;
 
 }
-.value:hover span{
+
+.value:hover span {
     opacity: 1;
     transition: 0.5s;
 }
+
 .progress-value-css {
     animation: css 4s normal forwards;
 }
@@ -351,6 +352,7 @@
         width: 15%;
     }
 }
+
 footer {
     padding: 10px;
     text-align: center;
